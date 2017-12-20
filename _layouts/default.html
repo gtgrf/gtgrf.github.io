@@ -1,0 +1,50 @@
+{% include head.html %}
+
+<body>
+
+	<div id="wrapper">
+		
+		{% include header.html %}
+
+		<div id="contents">
+			{{ content }}
+		</div>
+
+		{% include footer.html %}
+	
+	</div>
+
+	<script src="/js/imagesloaded.pkgd.min.js"></script>
+	<script src="/js/masonry.pkgd.min.js"></script>
+	<!-- <script src="/js/scrollreveal.min.js"></script> -->
+	<script>
+		(function () {
+
+			$('.grid').imagesLoaded( function() {
+
+				$('.grid-item').css({
+					opacity: 1
+				});
+
+				// masonry
+				$('.grid').masonry({
+						columnWidth: '.grid-sizer',
+						itemSelector: '.grid-item',
+						percentPosition: true
+				});
+
+				// scrollreveal
+				// window.sr = ScrollReveal();
+				// sr.reveal('.grid-item');
+
+				// var parallaxItems = [];
+				// var fadeItems = [];
+
+			});
+
+		})();
+	</script>
+	
+</body>
+
+</html>
