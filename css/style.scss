@@ -5,7 +5,9 @@
 
 // Import partials from 'sass_dir'
 @import
-	"reset",
 	"variable",
-	"layout"
+	"reset",
+	"base",
+	"layout",
+	"mediaquery"
 ;
