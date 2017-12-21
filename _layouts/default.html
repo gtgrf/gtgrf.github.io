@@ -2,49 +2,43 @@
 
 <body>
 
-	<div id="wrapper">
-		
-		{% include header.html %}
+  <div id="wrapper">
+    
+    {% include header.html %}
 
-		<div id="contents">
-			{{ content }}
-		</div>
+    <div id="contents">
+      {{ content }}
+    </div>
 
-		{% include footer.html %}
-	
-	</div>
+    {% include footer.html %}
+  
+  </div>
 
-	<script src="/js/imagesloaded.pkgd.min.js"></script>
-	<script src="/js/masonry.pkgd.min.js"></script>
-	<!-- <script src="/js/scrollreveal.min.js"></script> -->
-	<script>
-		(function () {
+  <script src="/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/js/masonry.pkgd.min.js"></script>
+  <script>
+    (function () {
 
-			$('.grid').imagesLoaded( function() {
+      var $grid = $('.grid').masonry({
+        columnWidth: '.grid-sizer',
+        itemSelector: '.grid-item',
+        percentPosition: true
+      });
 
-				$('.grid-item').css({
-					opacity: 1
-				});
+      $grid.imagesLoaded().progress( function() {
 
-				// masonry
-				$('.grid').masonry({
-						columnWidth: '.grid-sizer',
-						itemSelector: '.grid-item',
-						percentPosition: true
-				});
+        $('.grid-item').css({
+          opacity: 1
+        });
 
-				// scrollreveal
-				// window.sr = ScrollReveal();
-				// sr.reveal('.grid-item');
+        // masonry
+        $grid.masonry();
 
-				// var parallaxItems = [];
-				// var fadeItems = [];
+      });
 
-			});
-
-		})();
-	</script>
-	
+    })();
+  </script>
+  
 </body>
 
 </html>
