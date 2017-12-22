@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "The Pay Logo"
-date:   2013-08-11 15:39:40
-tags: logo
+role: Logo Design
+workdate:   2013-08-11 15:39:40
+client: LG Uplus
 preview: /images/thepaylogo-01.jpg
 ---
-
-![Picture 1](/images/thepaylogo-01.jpg)
 
 LG Uplus에서 제공하는 간편한 결제 서비스의 BI작업.
 
@@ -14,5 +13,4 @@ LG Uplus에서 제공하는 간편한 결제 서비스의 BI작업.
 
 프로젝트 후반에 클라이언트의 브랜드 전략변경으로 인해 기존 브랜드인 Paynow로 진행하기로 결정되어 취소된 프로젝트.
 
-- Client: LG Uplus
-- Date: 2013.08
+![Picture 1](/images/thepaylogo-01.jpg)
