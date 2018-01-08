@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kolon Korea Open 2011"
-role: Visual Design
+role: UI/UX Design
 workdate: 2011-06-11 15:39:40
 client: 코오롱 인더스트리(주)
 preview: /images/kolonopen2011-01.jpg

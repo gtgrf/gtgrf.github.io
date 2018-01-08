@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SmartBiz App"
-role: Visual Design
+role: UI/UX Design
 workdate:   2014-12-11 15:39:40
 client: netKTI
 preview: /images/kti1.png

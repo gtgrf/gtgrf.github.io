@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Theme for Gainlink"
-role: Visual Design, Frontend
+role: UI Design, Frontend
 workdate:   2013-04-11 15:39:40
 preview: /images/gainlink_theme-01.png
 ---

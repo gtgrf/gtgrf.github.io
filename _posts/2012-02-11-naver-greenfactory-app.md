@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Naver Greenfactory App"
-role: Visual Design
+role: UI/UX Design
 workdate: 2012-02-11 15:39:40
 client: Naver
 preview: /images/greenfactory-01.jpg

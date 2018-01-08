@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LG Paynow App"
-role: Visual Design
+role: UI/UX Design
 workdate:   2013-11-11 15:39:40
 client: LG Uplus
 preview: /images/paynow-01.jpg

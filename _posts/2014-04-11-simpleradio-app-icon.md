@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple Radio App Icon"
-role: Visual Design
+role: Icon Design
 workdate:   2014-04-11 15:39:40
 preview: /images/simpleradio-01.jpg
 ---
