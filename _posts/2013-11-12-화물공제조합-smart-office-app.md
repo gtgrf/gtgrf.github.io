@@ -2,7 +2,7 @@
 layout: post
 title:  "화물공제조합 Smart Office App"
 role: UI/UX Design
-workdate:   2014-02-12 15:39:40
+workdate:   2013-11-12 15:39:40
 client: 화물공제조합
 preview: /images/kta-01.jpg
 ---
