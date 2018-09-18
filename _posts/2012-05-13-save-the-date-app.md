@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Save the Date App"
-role: Product Design
+role: UI/UX Design
 workdate: 2012-05-13 15:39:40
 preview: /images/savethedate-01.jpg
 ---
