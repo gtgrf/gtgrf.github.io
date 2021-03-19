@@ -156,6 +156,17 @@
       color: $color-medium;
       line-height: 1.3;
     }
+    .post-category {
+
+      &:after {
+        content: ' | ';
+        display: inline;
+        color: $color-light;
+      }
+    }
+    .post-workdate {
+
+    }
   }
 
 }

@@ -15,9 +15,15 @@ layout: default
 					<a href="{{ post.url | prepend: site.baseurl }}">
 						<span class="post-title">{{ post.title }}</span>
 					</a>
-					<span class="post-meta">{% if post.role %}{{ post.role }} | {% endif %}
-						{{ post.workdate | date: '%b %Y' }}
-						{% if post.workdateto %} ~ {{ post.workdateto | date: '%b %Y' }}{% endif %}</span>
+					<span class="post-meta">
+						{% if post.role %}
+							<span class="post-category">{{ post.role }}</span>
+						{% endif %}
+						<span class="post-workdate">
+							{{ post.workdate | date: '%b %Y' }}
+							{% if post.workdateto %} ~ {{ post.workdateto | date: '%b %Y' }}{% endif %}
+						</span>
+					</span>
 				</div>
 		   </div>
 		</div>
