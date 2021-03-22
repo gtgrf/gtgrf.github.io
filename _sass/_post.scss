@@ -57,19 +57,31 @@
   text-align: left;
   font-size: 16px;
 
+  h2 {
+    margin: 2rem 0 1rem;
+  }
+
+  h3 {
+    margin: 1rem 0;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
   img {
     display: block;
     width: 100%;
-    margin: 0 0 20px;
   }
 
   a {
-    padding: 1px;
+    padding: 1px 3px;
     margin: -1px;
-    background: $color-bright;
+    background: $color-accent;
+    transition: background .15s;
 
     &:hover {
-      background: $color-light;
+      background: $color-accent-hover;
     }
   }
 }

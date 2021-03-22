@@ -1,11 +1,16 @@
+// breakpoint
 $size-medium: 604px;
 $size-large: 877px;
 $size-xlarge: 1301px;
 $size-xxlarge: 1725px;
 $size-xxxlarge: 2149px;
 
+// color
 $color-black: #111;
 $color-dark: #4d4d4d;
 $color-medium: #aaa;
 $color-light: #ddd;
 $color-bright: #eee;
+
+$color-accent: #fdd033;
+$color-accent-hover: darken($color-accent, 10%);
