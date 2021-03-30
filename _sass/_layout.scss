@@ -28,12 +28,10 @@
     }
     
     .wave {
+      animation: wave-animation 1.75s 1;
       transform-origin: 70% 70%;
       display: inline-block;
       margin-right: 4px;
-    }
-    &:hover .wave {
-      animation: wave-animation 1.75s 1;
     }
     @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }
