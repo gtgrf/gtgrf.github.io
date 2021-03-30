@@ -2,9 +2,36 @@
 #back {
   display: none;
   position: fixed;
-  top: 40px;
+  top: 50px;
   left: 40px;
   font-size: 40pt;
+  line-height: 62px;
+  text-align: center;
+  width: 64px;
+  height: 64px;
+
+  &::after {
+    visibility: hidden;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border-radius: 28px;
+    background: $color-bright;
+    transform: scale(0,0);
+    transition: all .2s;
+  }
+
+  &:hover {
+
+    &::after {
+        visibility: visible;
+        transform: scale(1,1);
+    }
+  }
 
   @media screen and (min-width: $size-large) {
     display: block;
